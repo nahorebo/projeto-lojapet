@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Imgheader from "../../images/caeegato.jpg";
+import Imgheader from "../assets/caeegato.jpg";
 import "./styles.css"
 
 function Headernav() {
@@ -12,7 +12,7 @@ function Headernav() {
 
       <nav className="menu">
         <ul>
-          <Link to="/">Home</Link>
+          <Link to="/">Sobre</Link>
           <Link to="/post">Produtos</Link>
           <Link to="/Catalogo">Catálogo</Link>
           <Link to="/Adote">Adote</Link>

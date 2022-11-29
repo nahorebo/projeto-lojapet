@@ -9,7 +9,7 @@ export default function AplicationRoutes() {
         <Headernav />
             <Routes> 
                 <Route path="/" element={<Home />} />
-                <Route path="/post" element={<h1>Post</h1>} />
+                <Route path="/post" element={<h1>post</h1>} />
             </Routes>
         </BrowserRouter>
 

@@ -1,57 +1,49 @@
 import React from "react";
 import "./styles.css";
+import ImgShampoo from "../../assets/shampoo.jpg";
+import ImgCaminha from "../../assets/caminha.jpg";
+import ImgRacao from "../../assets/racao.jpg";
 
 const Card = () => {
-    return(
-      <div className="cardcontainer">
-      <div>
-        <h1 className="cardtitle">Aproveite Nossas Ofertas</h1>
+  return (
+    <div className="cardcontainer">
+      <h1 className="cardcontainertitle">Aproveite Nossas Ofertas</h1>
+      <div className="cardcontainerimg">
+        <a className="a1" href="#">
+          <img
+            className="cardimage"
+            src={ImgShampoo}
+            alt="Cachorro marrom"
+          ></img>
+          Shampoo Pet 5 em 1
+        </a>
+        <p>R$20</p>
       </div>
 
-      <section id="cards">
+      <div className="cardcontainerimg">
+        <a className="a1" href="#">
+          <img
+            className="cardimage"
+            src={ImgCaminha}
+            alt="Cachorro preto"
+          ></img>
+          Caminha de Luxo
+        </a>
+        <p>R$150</p>
+      </div>
 
-        <div class="card1">
-          <a class="a1" href="#">
-            <img
-              className="cardimage"
-              src="https://m.media-amazon.com/images/I/814PDB8E9nL._AC_SX679_.jpg"
-              alt="Cachorro marrom"
-              width="500"
-              height="600"
-            ></img>
-            Shampoo Pet 5 em 1
-          </a>
-          <p>R$</p>
-        </div>
-
-        <div class="card-2">
-          <a class="a1" href="#">
-            <img
-              className="cardimage"
-              src="https://m.media-amazon.com/images/I/814PDB8E9nL._AC_SX679_.jpg"
-              alt="Cachorro preto"
-              width="500"
-              height="600"
-            ></img>
-            Caminha de Luxo
-          </a>
-        </div>
-
-        <div class="projeto3">
-          <a class="a1" href="#">
-            <img
-              className="cardimage"
-              src="https://m.media-amazon.com/images/I/814PDB8E9nL._AC_SX679_.jpg"
-              alt="Cachorro loiro"
-              width="500"
-              height="600"
-            ></img>
-            Racao Dog Show
-          </a>
-        </div>
-
-      </section>
+      <div className="cardcontainerimg">
+        <a class="a1" href="#">
+          <img
+            className="cardimage"
+            src={ImgRacao}
+            alt="Cachorro loiro"
+          ></img>
+          Racao Dog Show
+        </a>
+        <p>R$90</p>
+      </div>
     </div>
-    );
+  );
 }
 export default Card;

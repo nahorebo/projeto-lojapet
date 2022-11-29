@@ -1,6 +1,6 @@
 import React from "react";
 import "../body/styles.css";
-import Imgbody from "../../images/cachorrobody.jpg";
+import Imgbody from "../assets/cachorrobody.jpg";
 
 export default function Body () {
   return (

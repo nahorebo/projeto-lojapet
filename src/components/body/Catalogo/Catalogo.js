@@ -3,11 +3,11 @@ import "./styles.css";
 
 const Catalogo = () => {
     return(
-    <div id="#catalogo">
+    <div className="containercatalogo">
     <h1>
       Conheça nossos produtos!
     </h1>
-    <div class="shampoo">
+    <div className="cardcatalogo">
       <img
         className="img-shampoo"
         src="../public/images/body.cachorro1.jpg"
@@ -16,7 +16,7 @@ const Catalogo = () => {
         height="600"
       ></img>
     </div>
-    <div class="pet-food">
+    <div className="cardcatalogo">
       <img
         className="petfood"
         src="../public/images/body.cachorro1.jpg"
@@ -25,7 +25,7 @@ const Catalogo = () => {
         height="600"
       ></img>
     </div>
-    <div class="catalogo">
+    <div className="ccardcatalogo">
       <img
         className="cremes"
         src="../public/images/body.cachorro1.jpg"
@@ -33,7 +33,7 @@ const Catalogo = () => {
         width="500"
         height="600"
       ></img>
-      <div class="caminhas">
+      <div class="cardcatalogo">
         <img
           className="img-caminhas"
           src="../public/images/body.cachorro1.jpg"
@@ -42,7 +42,7 @@ const Catalogo = () => {
           height="600"
         ></img>
       </div>
-      <div class="bringquedos">
+      <div class="cardcatalogo">
         <img
           className="img-brinquedos"
           src="../public/images/body.cachorro1.jpg"
