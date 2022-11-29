@@ -1,0 +1,23 @@
+.containercard {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3EEE8;
+    margin-top: 120px;
+    color: #222830;
+
+}
+
+.cards {
+    width: 40vw;
+    border-radius: 6px;
+}
+
+.cardimage{
+    max-width: 20vw;
+}
+
+.cardimage img {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8 rem;
+    margin-top: 8px;
+}
