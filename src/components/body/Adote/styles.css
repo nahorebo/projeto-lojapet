@@ -1,0 +1,12 @@
+.containercatalogo {
+    display: flex;
+    justify-content: center;
+    background-color: #F3EEE8;
+    margin-top: 120px;
+    color: #222830;
+
+}
+
+.cardcatalogo {
+    width: 30vw;
+}
