@@ -1,6 +1,6 @@
 import React from "react";
 import "../body/styles.css";
-import Imgbody from "../assets/cachorrobody.jpg";
+import Imgbody from "../assets/cachorrobody.png";
 
 export default function Body () {
   return (
@@ -13,13 +13,15 @@ export default function Body () {
           </div>
           
           <div className="containerp">
-            <h1>Venha nos Conheçer</h1>
+            <h1>Venha nos Conheçer!</h1>
+            <ul>
             <p>Valores da PetCodigos:</p>
-            <p>Ética e transparência;</p>
-            <p>Humanização e respeito com os pets, tutores e colaboradores;</p>
-            <p>Aprendizagem contínua e treinamento constante;</p>
-            <p>Integridade nas relações institucionais;</p>
-            <p>Responsabilidade.</p>
+            <li>Ética e transparência;</li>
+            <li>Humanização e respeito com os pets, tutores e colaboradores;</li>
+            <li>Aprendizagem contínua e treinamento constante;</li>
+            <li>Integridade nas relações institucionais;</li>
+            <li>Responsabilidade.</li>
+            </ul>
           </div>
       </div>
   );

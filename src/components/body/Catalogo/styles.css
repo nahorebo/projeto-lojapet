@@ -1,12 +1,33 @@
 .containercatalogo {
-    display: flex;
+    display:flex;
+    align-items: center;
     justify-content: center;
-    background-color: #F3EEE8;
-    margin-top: 120px;
-    color: #222830;
-
+    height: 500px;
+    background-color: #583101;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+}
+.catalogotitle{
+    height: 200px;
+    width: 200px;
 }
 
-.cardcatalogo {
-    width: 30vw;
+.containercatalogo nav{
+    height: 0;
+    width: 0;
+}
+
+.cardcatalogo{
+    position: absolute;
+}
+
+.iconfood{
+    top: 1;
+    right: 30%;
+}
+
+.iconcama{
+    top: 0;
+    right: 30%;
 }

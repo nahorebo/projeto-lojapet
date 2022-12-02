@@ -1,58 +1,46 @@
 import React from "react";
 import "./styles.css";
+import petfood from "../../assets/pet-racao.svg";
+import petcaminha from "../../assets/pet-caminha.svg";
+import petmedicina from "../../assets/pet-medicinas.svg";
+import petbrinquedos from "../../assets/pet-brinquedos.svg";
+import pettrasnporte from "../../assets/pet-transporte.svg";
 
 const Catalogo = () => {
-    return(
-    <div className="containercatalogo">
-    <h1>
-      Conheça nossos produtos!
-    </h1>
-    <div className="cardcatalogo">
-      <img
-        className="img-shampoo"
-        src="../public/images/body.cachorro1.jpg"
-        alt="shampoo e loções"
-        width="500"
-        height="600"
-      ></img>
-    </div>
-    <div className="cardcatalogo">
-      <img
-        className="petfood"
-        src="../public/images/body.cachorro1.jpg"
-        alt="ração e petiscos"
-        width="500"
-        height="600"
-      ></img>
-    </div>
-    <div className="ccardcatalogo">
-      <img
-        className="cremes"
-        src="../public/images/body.cachorro1.jpg"
-        alt="Ccremes"
-        width="500"
-        height="600"
-      ></img>
-      <div class="cardcatalogo">
-        <img
-          className="img-caminhas"
-          src="../public/images/body.cachorro1.jpg"
-          alt="caminhas"
-          width="500"
-          height="600"
-        ></img>
+  return (
+    <section className="containercatalogo">
+     <h1 className="catalogo-title">
+        Conheça nossos produtos!
+      </h1>
+      <nav>
+      <ul>
+      <div className="cardcatalogo iconfood">
+        <img src={petfood} alt="comida de pet" width="60" className="iconfood"></img>
+        <p>Raçoes</p>
       </div>
-      <div class="cardcatalogo">
-        <img
-          className="img-brinquedos"
-          src="../public/images/body.cachorro1.jpg"
-          alt="brinquedos"
-          width="500"
-          height="600"
-        ></img>
+
+      <div className="cardcatalogo iconcama">
+        <img src={petcaminha} alt="camas de pet" width="60" className="iconcama"></img>
+        <p>Caminhas</p>
       </div>
-    </div>
-  </div>
+
+      <div className="cardcatalogo icontransporte">
+        <img src={pettrasnporte} alt="transporte de pet" width="60" className="icontransporte"></img>
+        <p>Transporte</p>
+        </div>
+
+        <div className="cardcatalogo iconbrinquedos">
+          <img src={petbrinquedos} alt="brinquedos de pet" width="60" className="iconbrinquedos"></img>
+          <p>Brinquedos</p>
+        </div>
+
+        <div className="cardcatalogo iconmedicina">
+          <img src={petmedicina} alt="medicina de pet" width="60" className="iconmedicina"></img>
+          <p>Medicina</p>
+        </div>
+        </ul>
+        </nav>
+      </section>
   );
 }
 export default Catalogo;

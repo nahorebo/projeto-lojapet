@@ -1,47 +1,54 @@
 import React from "react";
 import "./styles.css";
-import ImgShampoo from "../../assets/shampoo.jpg";
-import ImgCaminha from "../../assets/caminha.jpg";
-import ImgRacao from "../../assets/racao.jpg";
+import ImgShampoo from "../../assets/shampoo.png";
+import ImgCaminha from "../../assets/caminha.png";
+import ImgRacao from "../../assets/racao.png";
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
     <div className="cardcontainer">
-      <h1 className="cardcontainertitle">Aproveite Nossas Ofertas</h1>
+      <div className="cardcontainertitle">
+      <h1 className="cardcontainertitle-h1">Aproveite Nossas Ofertas</h1>
+      </div>
+
       <div className="cardcontainerimg">
-        <a className="a1" href="#">
+        <Link className="a1" href="/">
           <img
-            className="cardimage"
+            className="cardimage1"
             src={ImgShampoo}
             alt="Cachorro marrom"
           ></img>
-          Shampoo Pet 5 em 1
-        </a>
-        <p>R$20</p>
+          <span className="cardimagetitle">Oferta do Dia</span>
+          <span>Shampoo Pet 5 em 1</span>
+          <span>R$20</span>
+        </Link>
       </div>
 
       <div className="cardcontainerimg">
-        <a className="a1" href="#">
+        <Link className="a1" href="/">
           <img
-            className="cardimage"
+            className="cardimage2"
             src={ImgCaminha}
             alt="Cachorro preto"
           ></img>
-          Caminha de Luxo
-        </a>
-        <p>R$150</p>
+          <span className="cardimagetitle">Oferta do Dia</span>
+          <span>Caminha</span>
+          <span>R$100</span>
+        </Link>
       </div>
 
       <div className="cardcontainerimg">
-        <a class="a1" href="#">
+        <Link class="a1" href="#">
           <img
-            className="cardimage"
+            className="cardimage1"
             src={ImgRacao}
             alt="Cachorro loiro"
           ></img>
-          Racao Dog Show
-        </a>
-        <p>R$90</p>
+          <span className="cardimagetitle">Oferta do Dia</span>
+          <span>Raçao Pet</span>
+          <span>R$70</span>
+        </Link>
       </div>
     </div>
   );
