@@ -1,33 +1,94 @@
 .containercatalogo {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    background-color: #583101;
-    margin: 0 auto;
-    border-radius: 15px;
-    position: relative;
-}
-.catalogotitle{
-    height: 200px;
-    width: 200px;
+    margin: 20px 30% 70px 30%;
+    padding: 80px;
+    border-radius: 50%;
 }
 
-.containercatalogo nav{
+.containercatalogo:hover{
+    box-shadow: #000;
+    border: 1px solid;
+}
+
+.sectioncatalogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.cardcatalogotitle{
+    height: 300px;
+    width: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30%;
+    color: #ffffff;
+    -webkit-text-stroke-color: #583101;
+    -webkit-text-stroke-width: 1.5px;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px;
+}
+
+.sectioncatalogo nav{
     height: 0;
     width: 0;
 }
-
-.cardcatalogo{
+.catalogoicons{
     position: absolute;
 }
 
-.iconfood{
-    top: 1;
-    right: 30%;
+.catalogoicons img{
+    width: 6vw;
 }
 
-.iconcama{
+.catalogoicons li{
+    text-decoration: none;
+}
+.catalogoicons a{
+    text-decoration: none;
+    color: black;
+}
+.catalogoicons span{
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    text-shadow: #fff 3px 3px;
+}
+
+.catalogoicons img:hover{
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 2px rgba(79, 236, 225, 0.966);
+    border-radius: 10px;
+    border: 1px solid;
+    opacity: 0.9;
+}
+.iconfood {
     top: 0;
+    right: 90%;
+}
+
+.icongaiola {
+    top: 0;
+    left: 90%;
+}
+
+.iconcama {
+    top: 45%;
+    right: 85%;
+}
+
+.iconbrinquedos {
+    top: 45%;
+    left: 90%;
+}
+
+.iconmedicina {
+    top: 80%;
     right: 30%;
 }

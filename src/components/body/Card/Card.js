@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="cardcontainer">
-      <div className="cardcontainertitle">
-      <h1 className="cardcontainertitle-h1">Aproveite Nossas Ofertas</h1>
-      </div>
+      <p className="cardtitle">Aproveite Nossas Ofertas</p>
 
       <div className="cardcontainerimg">
         <Link className="a1" href="/">

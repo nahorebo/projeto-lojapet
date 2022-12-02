@@ -5,13 +5,12 @@ import Imgbody from "../assets/cachorrobody.png";
 export default function Body () {
   return (
       <div className="containerprincipal">
-        <div className="divcontainerimg">
+        <div>
             <img
             className="imgcontainer"
               src={Imgbody}
               alt="Cachorro marrom"/>
           </div>
-          
           <div className="containerp">
             <h1>Venha nos Conheçer!</h1>
             <ul>

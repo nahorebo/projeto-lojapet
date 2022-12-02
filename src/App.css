@@ -1,19 +1,5 @@
 * {
   margin: 0;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Fredoka One', cursive;
   padding: 0;
-}
-
-@media screen and (max-width: 750px) {
-  .logo {
-    flex-direction: column;
-  }
-
-  .footer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    align-items: center;
-  }
 }
