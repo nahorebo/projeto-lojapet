@@ -1,12 +1,15 @@
-/* .logo1{
-    background-color: #ffa69e;
-} */
+
 
 .navbar{
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    margin: 20px 20px 20px 20px;
-    background: linear-gradient(to top, rgb(0 0 0 / .1),rgb(0 0 0 / .1)),url(https://us.123rf.com/450wm/vasya/vasya1408/vasya140800071/31024406-huellas-de-fondo-sin-fisuras-animal-print.jpg?ver=6);
+    /* margin: 20px 0px; */
+    background: linear-gradient(to top, rgb(0 0 0 / .01),rgb(0 0 0 / .01)),url(https://c8.alamy.com/zoomses/6/694501fd250c4f0082641153665823a1/2dnmxy0.jpg);
+    min-height: 90px;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.5s ease;
 
 }
 
@@ -16,32 +19,63 @@
 
 
 .nav-link{
-    margin: 0 13px;
-    color:black;
-    font-size: 35px;
+    margin: 0px 13px;
+    font-size: 30px;
     font-weight: bold;
-    color: #000;
-    border-right: 3px solid black;
-    -webkit-text-stroke-color: #fff;
-    -webkit-text-stroke-width: 0.5px;
-    font-family: 'Fredoka One', cursive;;
+    color: #fff;
     padding: 10px;
     text-decoration: none;
-    text-shadow: #000 4px 4px;
+    text-shadow:  #583101 3px 3px;
+    -webkit-text-stroke-color: #583101;
+    -webkit-text-stroke-width: 1.5px;
+    
 }
 
 .nav-link:hover{
-    color: rgba(79, 236, 225, 0.966);
+    padding-left: 5px;
+    color: rgb(43, 231, 47);
 }
 
 .logo{
-/* font-size: 2rem;
-color:white; */
 margin: 5px;
-padding: 0 20px;
-}   
+padding: 0 25px;
+}
 
-@media screen and (max-width: 750px){
+.containerppal{
+    display: flex;
+    justify-content: center;
+    margin: 70px 50px 40px 50px;
+    border-radius: 15px;
+    background-image: linear-gradient(135deg,#FFEDD8, #F3D5B5, #E7BC91, #D4A276, #BC8A5F, #8B5E34, #6F4518, #583101);
+}
+
+
+.image__container{
+    width: 35vw;
+}
+
+.texto{
+    padding: 80px;
+    color: black;
+}
+
+.texto h1{
+    color: #fff;
+    -webkit-text-stroke-color: #583101;
+    -webkit-text-stroke-width: 1.5px;
+    text-shadow: #000 3px 3px;
+    font-size: 50px;
+}
+
+.texto p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 4px;
+}
+
+   
+
+@media screen and (max-width: 750px) { 
     .navbar{
         flex-direction: column;
         background-image: 100px;
@@ -56,4 +90,36 @@ padding: 0 20px;
     .logo{
         width: 100%
     }
+
+.containerppal{
+    display: grid;
+    padding: 10px;
+}
+
+.texto {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    max-width: 20vw;
+    padding: 0;
+}
+
+.image__container {
+    width: 60vw;
+}
+
+.texto p {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.texto h1 {
+    margin-right: 40px;
+    font-size: 30px;
+    position: absolute;
+    margin-bottom: 40px;
+    line-height: 0.9;
+}
+
 }

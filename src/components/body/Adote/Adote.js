@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import adote from "../../assets/adotecachorro.png";
+import adote from "../../assets/adotecachorro.jpg";
 
 const Adote = () => {
     return(

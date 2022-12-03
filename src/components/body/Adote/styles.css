@@ -1,7 +1,7 @@
 .containeradote {
     display: flex;
     justify-content: center;
-    background-color: #F3D5B5;
+    background: linear-gradient(135deg,#FFEDD8, #F3D5B5, #E7BC91, #D4A276, #BC8A5F, #8B5E34, #6F4518, #583101);
     margin: 70px 50px 40px 50px;
     border-radius: 15px;
     color: #222830;
@@ -47,3 +47,36 @@
     -webkit-text-stroke-width: 1.5px;
     font-family: 'Fredoka One', cursive;
 }
+
+
+@media screen and (max-width: 750px) {
+    .containeradote {
+        display: grid;
+        padding: 10px;
+    }
+
+    .containeradotedescricao {
+        justify-content: center;
+        max-width: 20vw;
+        padding: 0;
+    }
+
+    .imgcontainer {
+        width: 60vw;
+    }
+
+    .containeradotedescricao p {
+        font-size: 15px;
+        left: 40%;
+        position: relative;
+    }
+
+    .containeradotedescricao h1 {
+        margin-right: 40px;
+        font-size: 30px;
+        position: absolute;
+        margin-bottom: 40px;
+        line-height: 0.9;
+    }
+}
+

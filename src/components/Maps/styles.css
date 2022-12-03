@@ -1,5 +1,5 @@
 .GoogleMaps{
-    background-color: #583101;
+    background: linear-gradient(135deg,#FFEDD8, #F3D5B5, #E7BC91, #D4A276, #BC8A5F, #8B5E34, #6F4518, #583101);
     color: #fff;
     height: 400px;
     margin: 70px 50px 40px 50px;
