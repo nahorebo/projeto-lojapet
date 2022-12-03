@@ -4,8 +4,7 @@
     background: linear-gradient(135deg,#FFEDD8, #F3D5B5, #E7BC91, #D4A276, #BC8A5F, #8B5E34, #6F4518, #583101);
     margin: 70px 50px 40px 50px;
     border-radius: 15px;
-    color: #222830;
-
+    color: #000;
 }
 
 .imgcontainer {
@@ -48,15 +47,13 @@
 @media screen and (max-width: 750px) {
     .containerprincipal {
         display: grid;
-        padding: 10px;
+        width: 300px;
+        margin-left: 35px;
     }
 
     .containerp {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: auto auto;
-        max-width: 20vw;
-        padding: 0;
+        max-width: 80vw;
+        padding: 10px;
     }
 
     .imgcontainer {
@@ -65,7 +62,6 @@
 
     .containerp li {
         font-size: 15px;
-        left: 40%;
         position: relative;
     }
 

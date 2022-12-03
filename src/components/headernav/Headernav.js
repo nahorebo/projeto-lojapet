@@ -19,34 +19,27 @@ function Headernav() {
                     </Link>
                 </div>
 
-
-
                 <div className="menu-lista">
-
-                    <Link to="/Produtos" className="nav-link">Produtos</Link>
-                    <Link to="/Catálogo" className="nav-link">Catálogo</Link>
-                    <Link to="/Adote" className="nav-link">Adote</Link>
-                    <Link to="/Contato" className="nav-link">Contato</Link>
-
+                    <Link to="/card" className="nav-link">Produtos</Link>
+                    <Link to="/catalogo" className="nav-link">Catálogo</Link>
+                    <Link to="/adote" className="nav-link">Adote</Link>
+                    <Link to="/contato" className="nav-link">Contato</Link>
                 </div>
-
-
             </nav>
 
             <div className="containerppal">
-                    <div className="image">
-                        <img className="image__container"
-                            src={animais2}
-                            alt="Animais de estimação">
-                        </img>
-                    </div>
-                    <div className="texto">
-                        <h1>Bem-vindo à nossa Pet Shop</h1>
-                        <p>Faça seu pet feliz, fornecendo para ele os melhores produtos e de qualidade para dar um mimo para seu melhor amigo, ajudamos você a cuidar do seu pet.</p>
-                        <p className="visit">Visite nossa loja!</p>
-                    </div>
+                <div className="image">
+                    <img className="image__container"
+                        src={animais2}
+                        alt="Animais de estimação">
+                    </img>
+                </div>
+                <div className="texto">
+                    <h1>Bem-vindo à nossa Pet Shop</h1>
+                    <p>Faça seu pet feliz, fornecendo para ele os melhores produtos e de qualidade para dar um mimo para seu melhor amigo, ajudamos você a cuidar do seu pet.</p>
+                    <p className="visit">Visite nossa loja!</p>
+                </div>
             </div>
-
         </header>
     );
 }

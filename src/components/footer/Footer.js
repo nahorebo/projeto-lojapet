@@ -12,31 +12,31 @@ function Footer() {
                     <div className='footer-col'>
                         <h4>Pet codigos</h4>
                         <ul>
-                            <li><a href='#'>Sobre nós</a></li>
-                            <li><a href='#'>Nossos serviços</a></li>
-                            <li><a href='#'>Politica e privacidade</a></li>
-                            <li><a href='#'>Programas</a></li>
+                            <li><Link href=''>Desenvolvido por:</Link></li>
+                            <li><Link href='/'>Adriana Rodriguez</Link></li>
+                            <li><Link href='/'>Jose Lumbo</Link></li>
+                            <li><Link href='/'>Nahomi Rebolledo</Link></li>
                         </ul>
 
                     </div>
                     <div className='footer-col'>
                         <h4>Obter ajuda</h4>
                         <ul>
-                            <li><a href='#'>Perguntas Frequentes</a></li>
-                            <li><a href='#'>Transporte</a></li>
-                            <li><a href='#'>Retorno</a></li>
-                            <li><a href='#'>Status de Pedidos</a></li>
-                            <li><a href='#'>Opção de pagamento</a></li>
+                            <li><Link href='/'>Perguntas Frequentes</Link></li>
+                            <li><Link href='/'>Transporte</Link></li>
+                            <li><Link href='/'>Retorno</Link></li>
+                            <li><Link href='/'>Status de Pedidos</Link></li>
+                            <li><Link href='/'>Opção de pagamento</Link></li>
                         </ul>
 
                     </div>
                     <div className='footer-col'>
                         <h4>Produtos mais vendidos</h4>
                         <ul>
-                            <li><a href='#'>Ração</a></li>
-                            <li><a href='#'>Cama</a></li>
-                            <li><a href='#'>Leite</a></li>
-                            <li><a href='#'>Outros</a></li>
+                            <li><Link href='/'>Ração</Link></li>
+                            <li><Link href='/'>Cama</Link></li>
+                            <li><Link href='/'>Leite</Link></li>
+                            <li><Link href='/'>Outros</Link></li>
                         </ul>
 
                     </div>
@@ -49,7 +49,7 @@ function Footer() {
                                 <li><Link> <FaLinkedin /></Link></li>
                                 <li><FaEnvelope /> petcodigos@gmail.com</li>
                                 <li><FaPhoneAlt/>99999999999</li>
-                                <li><span>Pet Codigos</span>&copy; 2022</li>
+                                <li>Pet Codigos&copy; 2022</li>
                             </ul>
                         </div>
                     </div>
